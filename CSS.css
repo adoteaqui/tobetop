@@ -1,0 +1,94 @@
+/* Estilização básica para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Formulário */
+.formulariohumano {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulariohumano p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.formulariohumano input[type="text"],
+.formulariohumano select {
+    width: calc(100% - 30px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.formulariohumano input[type="radio"] {
+    margin-right: 5px;
+}
+
+.formulariohumano label {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.formulariohumano button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.formulariohumano button:hover {
+    background-color: #0056b3;
+}
